@@ -1,11 +1,11 @@
 
 package ETS_Grupal;
 public class rename {
-    int contadorpares=0;
+    int num=0;
     for(int i=0;i<10;i++){
     if(i%2==0){
-    contadorpares++;
+    num++;
     }
-    System.out.println("hay"+contadorpares+"números pares del 0 al 10");
+    System.out.println("hay"+num+"números pares del 0 al 10");
     }
 }
